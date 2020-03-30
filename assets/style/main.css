@@ -1,0 +1,60 @@
+.flex {
+    display: flex;
+}
+
+.label {
+    width: 224px;
+    margin-right: 16px;
+    text-align: left;
+    font-weight: 500;
+    height: 36px;
+    line-height: 36px;
+}
+
+.grup-input {
+    width: 128px;
+    height: 33px;
+}
+
+.oneHeight {
+    margin: 16px 0px;
+}
+
+.twoHeight {
+    margin: 32px 0px
+}
+
+.error-page {
+    text-align: center;
+}
+
+.error-page a {
+    text-decoration: none;
+    color: red;
+}
+
+.error-page a:hover, .error-page a:active {
+    color: salmon;
+}
+
+input::placeholder {
+    color: lightgray !important;
+}
+
+.search-input.input-control>input::placeholder {
+    padding-left: 28px;
+    color: lightgray;
+}
+
+.search-input.input-control>input {
+    padding-left: 28px !important;
+    max-width: 368px;
+}
+
+.title {
+    font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    display: block;
+    font-weight: 300;
+    color: #35495e;
+    letter-spacing: 1px;
+}
