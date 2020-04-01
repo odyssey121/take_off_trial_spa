@@ -12,7 +12,7 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_templatesplugin3607278b_6cfcb1fc from 'nuxt_plugin_templatesplugin3607278b_6cfcb1fc' // Source: .\\templates.plugin.3607278b.js (mode: 'all')
+import nuxt_plugin_templatesplugin08a2e82f_5b2994b7 from 'nuxt_plugin_templatesplugin08a2e82f_5b2994b7' // Source: .\\templates.plugin.08a2e82f.js (mode: 'all')
 import nuxt_plugin_uicomponents_05d3dd7f from 'nuxt_plugin_uicomponents_05d3dd7f' // Source: ..\\plugins\\ui-components.js (mode: 'all')
 
 // Component: <ClientOnly>
@@ -171,8 +171,8 @@ async function createApp (ssrContext) {
 
   // Plugin execution
 
-  if (typeof nuxt_plugin_templatesplugin3607278b_6cfcb1fc === 'function') {
-    await nuxt_plugin_templatesplugin3607278b_6cfcb1fc(app.context, inject)
+  if (typeof nuxt_plugin_templatesplugin08a2e82f_5b2994b7 === 'function') {
+    await nuxt_plugin_templatesplugin08a2e82f_5b2994b7(app.context, inject)
   }
 
   if (typeof nuxt_plugin_uicomponents_05d3dd7f === 'function') {

@@ -11,7 +11,7 @@
         :conditionCount="count"
         :optionsCondition="respondentsData[count-1]"
         :localRange="getRanges[count]"
-        :localValues='getConditionForm[count]'
+        :localValues="getConditionForm[count]"
       ></Condition>
     </div>
     <div class="add-area" v-show="this.respondentsData[getConditionCount.length]">
@@ -27,7 +27,9 @@
       <template #header>
         <h3>Результаты опроса:</h3>
       </template>
-      <template #body>{{getConditionForm}}</template>
+      <template #body>
+        <pre>{{JSON.stringify(getConditionForm,null,2)}}</pre>
+      </template>
     </app-modal>
     <div class="respondents-footer">
       <app-button @click="showModal = true">
